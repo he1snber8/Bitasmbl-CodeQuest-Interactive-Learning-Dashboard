@@ -1,0 +1,1 @@
+// main entry\nimport { createApp } from 'vue';\nimport App from './App.vue';\ncreateApp(App).mount('#app');\n
