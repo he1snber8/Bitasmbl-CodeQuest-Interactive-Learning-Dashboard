@@ -1,0 +1,1 @@
+// setup project\n{\n  \"name\": \"codequest\",\n  \"dependencies\": {\"vue\": \"^3.0.0\", \"vue-chartjs\": \"^4.1.0\", \"chart.js\": \"^3.5.0\"}\n}\n
