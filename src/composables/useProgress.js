@@ -1,0 +1,1 @@
+// composable for progress\nimport { ref, watch } from 'vue';\nconst progress = ref(JSON.parse(localStorage.getItem('progress') || '{}'));\nwatch(progress, (val) => localStorage.setItem('progress', JSON.stringify(val)), { deep: true });\nexport function useProgress() { return { progress }; }\n
