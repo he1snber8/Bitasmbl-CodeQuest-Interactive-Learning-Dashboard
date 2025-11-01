@@ -1,0 +1,1 @@
+// Atomic card component\n<template>\n  <div class=\"lesson-card\">\n    <h3>{{ title }}</h3>\n    <button @click=\"unlock\">Unlock</button>\n  </div>\n</template>\n<script setup>\nconst props = defineProps({ title: String });\nconst emit = defineEmits([\"unlock\"]);\nfunction unlock() { emit('unlock'); }\n</script>\n
