@@ -1,0 +1,1 @@
+// vite config\nimport { defineConfig } from 'vite';\nimport vue from '@vitejs/plugin-vue';\nexport default defineConfig({plugins: [vue()]});\n
