@@ -1,0 +1,1 @@
+// Progress badge\n<template>\n  <span>{{ completed }} / {{ total }} completed</span>\n</template>\n<script setup>\nconst props = defineProps({ completed: Number, total: Number });\n</script>\n
